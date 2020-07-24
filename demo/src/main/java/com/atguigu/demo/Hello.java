@@ -20,4 +20,11 @@ public class Hello {
         return "Hello 2";
     }
     
+    
+    @RequestMapping("hello33")
+    @ResponseBody
+    public String sayHello33(){
+        return "Hello 33";
+    }
+    
 }
