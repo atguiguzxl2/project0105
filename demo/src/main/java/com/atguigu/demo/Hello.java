@@ -34,4 +34,10 @@ public class Hello {
         return "Hello 33";
     }
     
+    @RequestMapping("hello334")
+    @ResponseBody
+    public String sayHello334(){
+        return "Hello 334";
+    }
+    
 }
