@@ -19,5 +19,12 @@ public class Hello {
     public String sayHello2(){
         return "Hello 2";
     }
+
+
+    @RequestMapping("hello3")
+    @ResponseBody
+    public String sayHello3(){
+        return "hello3";
+    }
     
 }
