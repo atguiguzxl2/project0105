@@ -13,4 +13,11 @@ public class Hello {
 
         return "Hello springbott IDEA!";
     }
+    
+    @RequestMapping("hello1")
+    @ResponseBody
+    public String sayHello2(){
+        return "Hello 2";
+    }
+    
 }
