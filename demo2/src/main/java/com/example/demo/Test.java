@@ -19,4 +19,10 @@ public class Test {
     public String get1(){
         return "hello1";
     }
+    
+    @RequestMapping("get12")
+    @ResponseBody
+    public String get12(){
+        return "hello12";
+    }
 }
