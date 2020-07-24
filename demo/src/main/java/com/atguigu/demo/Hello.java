@@ -33,11 +33,17 @@ public class Hello {
     public String sayHello33(){
         return "Hello 33";
     }
-    
+
+    @RequestMapping("hello333")
+    @ResponseBody
+    public String sayHello333(){
+        return "Hello 333";
+    }
+
     @RequestMapping("hello334")
     @ResponseBody
     public String sayHello334(){
         return "Hello 334";
     }
-    
+
 }
