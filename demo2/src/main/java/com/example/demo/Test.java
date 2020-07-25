@@ -25,4 +25,11 @@ public class Test {
     public String get12(){
         return "hello12";
     }
+    
+    
+    @RequestMapping("xixi")
+    @ResponseBody
+    public String getxixi(){
+        return "xixi";
+    }
 }
