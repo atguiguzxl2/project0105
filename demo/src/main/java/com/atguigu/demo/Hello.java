@@ -45,5 +45,11 @@ public class Hello {
     public String sayHello334(){
         return "Hello 334";
     }
+    
+      @RequestMapping("xixi111")
+    @ResponseBody
+    public String xiXiXi11(){
+        return "xiXiXi11";
+    }
 
 }
