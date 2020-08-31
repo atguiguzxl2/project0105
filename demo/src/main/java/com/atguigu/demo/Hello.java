@@ -57,6 +57,12 @@ public class Hello {
     public String haha11() {
         return "hahaha11";
     }
+    
+    @RequestMapping("da11")
+    @ResponseBody
+    public String da11(){
+        return "da11";
+    }
 
     @RequestMapping("dadada11")
     @ResponseBody
