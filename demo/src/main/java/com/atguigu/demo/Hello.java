@@ -9,53 +9,59 @@ public class Hello {
 
     @RequestMapping("hello")
     @ResponseBody
-    public String sayHello(){
+    public String sayHello() {
 
         return "Hello springbott IDEA!";
     }
-    
+
     @RequestMapping("hello1")
     @ResponseBody
-    public String sayHello2(){
+    public String sayHello2() {
         return "Hello 2";
     }
 
 
     @RequestMapping("hello3")
     @ResponseBody
-    public String sayHello3(){
+    public String sayHello3() {
         return "hello3";
     }
-    
-    
+
+
     @RequestMapping("hello33")
     @ResponseBody
-    public String sayHello33(){
+    public String sayHello33() {
         return "Hello 33";
     }
 
     @RequestMapping("hello333")
     @ResponseBody
-    public String sayHello333(){
+    public String sayHello333() {
         return "Hello 333";
     }
 
     @RequestMapping("hello334")
     @ResponseBody
-    public String sayHello334(){
+    public String sayHello334() {
         return "Hello 334";
     }
-    
-      @RequestMapping("xixi111")
+
+    @RequestMapping("xixi111")
     @ResponseBody
-    public String xiXiXi11(){
+    public String xiXiXi11() {
         return "xiXiXi11";
     }
 
- @RequestMapping("haah111")
+    @RequestMapping("haah111")
     @ResponseBody
-    public String haha11(){
+    public String haha11() {
         return "hahaha11";
+    }
+
+    @RequestMapping("dadada11")
+    @ResponseBody
+    public String dadada() {
+        return "dadada11";
     }
 
 }
