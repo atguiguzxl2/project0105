@@ -69,5 +69,13 @@ public class Hello {
     public String dadada() {
         return "dadada11";
     }
+    
+    @RequestMapping("wuhu")
+    @ResponseBody
+    public String wuhu() {
+        return "wuhu";
+    }
+    
+    
 
 }
