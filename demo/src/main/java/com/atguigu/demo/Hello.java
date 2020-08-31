@@ -52,4 +52,10 @@ public class Hello {
         return "xiXiXi11";
     }
 
+ @RequestMapping("haah111")
+    @ResponseBody
+    public String haha11(){
+        return "hahaha11";
+    }
+
 }
