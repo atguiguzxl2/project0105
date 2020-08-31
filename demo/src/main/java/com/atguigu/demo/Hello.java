@@ -78,4 +78,10 @@ public class Hello {
     
     
 
+    @RequestMapping("wode1")
+    @ResponseBody
+    public String wode() {
+        return "wode1";
+    }
+
 }
